@@ -42,7 +42,7 @@ export default function Home() {
     <main
       className="relative min-h-screen overflow-hidden text-white p-10 bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('/Wishixbackground.png')",
+        backgroundImage: "url('/wishixbackground.png')",
       }}
     >
       {/* MUSIC */}
@@ -70,34 +70,27 @@ export default function Home() {
           Official Roblox Roadmap Development
         </p>
 
-<a
-  href="https://www.roblox.com/games/18864354815/PARTY-Wishix-Club"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
-    mb-6
-    inline-flex
-    items-center
-    gap-2
-    px-8
-    py-4
-    rounded-full
-    bg-gradient-to-r
-    from-pink-500
-    to-purple-500
-    text-white
-    font-bold
-    text-lg
-    shadow-[0_0_25px_rgba(255,0,255,0.4)]
-    transition-all
-    duration-300
-    hover:scale-105
-    hover:shadow-[0_0_35px_rgba(255,0,255,0.6)]
-  "
->
-  ▶ PLAY NOW
-</a>
-        {/* PLAY BUTTON */}
+        {/* PLAY BUTTON (ROBLOX) */}
+        <a
+          href="https://www.roblox.com/games/18864354815/PARTY-Wishix-Club"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            mb-6
+            inline-flex items-center gap-2
+            px-8 py-4 rounded-full
+            bg-gradient-to-r from-pink-500 to-purple-500
+            text-white font-bold text-lg
+            shadow-[0_0_25px_rgba(255,0,255,0.4)]
+            transition-all duration-300
+            hover:scale-105
+            hover:shadow-[0_0_35px_rgba(255,0,255,0.6)]
+          "
+        >
+          ▶ PLAY NOW
+        </a>
+
+        {/* MUSIC BUTTON */}
         <button
           onClick={() => {
             if (isPlaying) {
@@ -109,11 +102,8 @@ export default function Home() {
           }}
           className="
             mb-4
-            px-5
-            py-2
-            rounded-full
-            bg-white/10
-            backdrop-blur-md
+            px-5 py-2 rounded-full
+            bg-white/10 backdrop-blur-md
             border border-white/10
             hover:bg-white/15
             transition-all duration-300
@@ -121,7 +111,6 @@ export default function Home() {
         >
           {isPlaying ? "⏸ Pause Music" : "🎵 Play Music"}
         </button>
-
 
         {/* VOLUME */}
         <div className="
@@ -162,7 +151,6 @@ export default function Home() {
                 hover:border-white/20
               "
             >
-              {/* HEADER */}
               <summary className="
                 text-2xl font-semibold
                 list-none
@@ -180,7 +168,6 @@ export default function Home() {
                 </span>
               </summary>
 
-              {/* ITEMS */}
               <div className="mt-6 space-y-4 text-lg text-white/90">
                 {category.items.map((item, i) => (
                   <div
