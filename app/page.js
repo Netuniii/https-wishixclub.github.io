@@ -42,7 +42,7 @@ export default function Home() {
     <main
       className="relative min-h-screen overflow-hidden text-white p-10 bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('/wishixbackground.png')",
+        backgroundImage: "url('/Wishixbackground.png')",
       }}
     >
       {/* MUSIC */}
@@ -55,7 +55,7 @@ export default function Home() {
 
         {/* LOGO */}
         <img
-          src="/Wishixlogo.png"
+          src="/wishixlogo.png"
           alt="Wishix Logo"
           className="w-60 mx-auto mb-6 transition-all duration-500 hover:scale-105 hover:-translate-y-1 cursor-pointer"
         />
