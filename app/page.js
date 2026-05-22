@@ -13,6 +13,11 @@ export default function Home() {
         { name: "✨ Charmix and Quests", progress: 20 },
         { name: "👹 Lord Darkar", progress: 0 },
         { name: "🧙Disenchantix", progress: 0 },
+        { name: "🧚Pixies", progress: 0 },
+        { name: "⚔️Specialists", progress: 20 },
+        { name: "🚶‍♂️Revamped Idles", progress: 0 },
+        { name: "🦆 Pepe (The Duck) ", progress: 0 },
+        { name: "⏱️Revamped Badges ", progress: 20 },
       ],
     },
     {
@@ -20,20 +25,22 @@ export default function Home() {
       items: [
         { name: "🏰 New Maps", progress: 10 },
         { name: "⚔️ Combat System", progress: 0 },
+        { name: "🌟 Power System", progress: 0 },
       ],
     },
     {
-      title: "🎨 Design",
+      title: "🎨 Future Updates",
       items: [
-        { name: "👗 Outfits", progress: 70 },
-        { name: "🌈 UI Revamp", progress: 40 },
+        { name: "🧚 Enchantix", progress: 0 },
+        { name: "🐾 Pet System Revamp", progress: 0 },
       ],
     },
     {
       title: "🚀 Release",
       items: [
-        { name: "📱 Mobile Optimization", progress: 15 },
-        { name: "🌐 Public Beta", progress: 5 },
+        { name: "🪩 Party System and Outfits", progress: 100 },
+        { name: "🦋 Revamped Transformations", progress: 100 },
+        { name: "🌲 Explorer Outfits", progress: 100 },
       ],
     },
   ];
@@ -55,10 +62,20 @@ export default function Home() {
 
         {/* LOGO */}
         <img
-          src="/wishixlogo.png"
-          alt="Wishix Logo"
-          className="w-60 mx-auto mb-6 transition-all duration-500 hover:scale-105 hover:-translate-y-1 cursor-pointer"
-        />
+  src="/wishixlogo.png"
+  alt="Wishix Logo"
+  className="
+    w-60
+    mx-auto
+    mb-6
+    transition-all duration-500
+    hover:scale-110
+    hover:-translate-y-1
+    cursor-pointer
+
+    hover:drop-shadow-[0_0_25px_rgba(255,0,255,0.8)]
+  "
+/>
 
         {/* TITLE */}
         <h1 className="text-6xl font-black mb-2">
@@ -66,7 +83,7 @@ export default function Home() {
         </h1>
 
         {/* SUBTITLE */}
-        <p className="text-white/70 text-lg mb-6">
+        <p className=" font-bold text-white/70 text-lg mb-6">
           Official Roblox Roadmap Development
         </p>
 
