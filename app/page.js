@@ -14,7 +14,7 @@ export default function Home() {
         { name: "👹 Lord Darkar", progress: 0 },
         { name: "🧙Disenchantix", progress: 0 },
         { name: "🧚Pixies", progress: 0 },
-        { name: "⚔️Specialists", progress: 20 },
+        { name: "⚔️Specialists", progress: 30 },
         { name: "🚶‍♂️Revamped Idles", progress: 0 },
         { name: "🦆 Pepe (The Duck) ", progress: 0 },
         { name: "⏱️Revamped Badges ", progress: 20 },
