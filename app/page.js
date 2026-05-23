@@ -15,9 +15,9 @@ export default function Home() {
         { name: "🧙Disenchantix", progress: 0 },
         { name: "🧚Pixies", progress: 0 },
         { name: "⚔️Specialists", progress: 30 },
-        { name: "🚶‍♂️Revamped Idles", progress: 0 },
+        { name: "🚶‍♂️Revamped Idles", progress: 10 },
         { name: "🦆 Pepe (The Duck) ", progress: 0 },
-        { name: "⏱️Revamped Badges ", progress: 20 },
+        { name: "⏱️Revamped Badges ", progress: 25 },
       ],
     },
     {
