@@ -10,7 +10,7 @@ export default function Home() {
     {
       title: "✨ Development",
       items: [
-        { name: "✨ Charmix and Quests", progress: 40 },
+        { name: "✨ Charmix and Quests", progress: 25 },
         { name: "👹 Lord Darkar", progress: 0 },
         { name: "🧙Disenchantix", progress: 0 },
         { name: "🧚Pixies", progress: 0 },
