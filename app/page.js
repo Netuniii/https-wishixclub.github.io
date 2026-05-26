@@ -25,7 +25,7 @@ export default function Home() {
       items: [
         { name: "🏰 New Maps", progress: 10 },
         { name: "⚔️ Combat System", progress: 0 },
-        { name: "🌟 Power System", progress: 20 },
+        { name: "🌟 Power System", progress: 25 },
       ],
     },
     {
